@@ -1,23 +1,23 @@
 body{
-	background-color: #d6cbd3; 
+	background-color:#000000; 
 }
 h1 {
  	text-align:center;
- 	color: #3e4444;
+ 	color: #000099;
 }
 
 p {
-	color: black;
+	color: #ffffff;
 }
 
 
 li {
-	color:purple;
+	color:#ff00ff;
 }
 
 
 h2 {
-	color:red;
+	color:#ff6600;
 }
 
 
@@ -40,7 +40,7 @@ pre {
 
 #p02 {
  color:white;
- background-color:black; 
+ background-color:white; 
 }
 
 #starry_night {
