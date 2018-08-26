@@ -26,6 +26,7 @@ h6 {
 }
 
 pre {
+	color:#3399ff;
 	font-family:verdana;
 }
 
@@ -40,7 +41,7 @@ pre {
 
 #p02 {
  color:white;
- background-color:white; 
+  
 }
 
 #starry_night {
@@ -60,8 +61,9 @@ pre {
 }
 
 
-
-
+address {
+	color =yellow ;
+}
 
 
 
