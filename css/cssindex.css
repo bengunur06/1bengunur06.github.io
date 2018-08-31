@@ -129,14 +129,14 @@ table {
     list-style-type:circle;
     margin:0;
     padding:5px;
-    overflow:hidden;
+    overflow:auto;
     }
 
 li a {
 	display:block ;
 	text-align:center;
 	padding:5px;
-	text-decoration:none;
+	text-decoration:underline;
 	font-family:Verdana;
 }
 
