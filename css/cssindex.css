@@ -127,7 +127,7 @@ table {
 #main_menu{
 
     list-style-type:circle;
-    margin:0;
+    margin:5px;
     padding:5px;
     overflow:auto;
     }
