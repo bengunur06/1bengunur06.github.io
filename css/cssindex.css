@@ -5,11 +5,7 @@ h1 {
  	text-align:center;
  	color: pink;
 	border: 4px dashed white;
-	box-sizing: content-box;    
-    	width: 300px;	
-     	height: 100px;
-    	padding: 30px;    
-    	font-family:Verdana;
+	font-family:Verdana;
 
 
 }
@@ -84,13 +80,23 @@ img {
 }
 
 #pre01 {
-	box-sizing:border-box;
-color :#00838f;
+	color :#00838f;
 	border:3px solid gray;
-	font-family:Arial;
+	box-sizing: content-box;    
+
+	width: 300px;
+    height: 100px;
+    padding: 30px;   
+    font-family:Arial;
 }
 
-
+* {
+	* box-sizing :content-box;
+	* width:300px;
+	* height;100px;
+	* padding:30px;
+	
+}
 
 
 
