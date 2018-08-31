@@ -16,7 +16,7 @@ p {
 
 
 li {
-	color:#ff00ff;
+	color:white;
 }
 
 
@@ -114,7 +114,8 @@ border :3px solid #00838f;
 table , th,td {
 	border:5px solid lightgrey;
 	border-collapse:collapse;
-
+	padding:3px;
+	text-align:center;
 	color:white;
 }
 table {
@@ -123,6 +124,21 @@ table {
 	margin-right:auto;
 }
 
+#main_menu{
 
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    }
+
+li a {
+	display:block ;
+	color:white;
+	text-align:center;
+	padding:5px;
+	text-decoration:none;
+	font-family:Verdana;
+}
 
 
