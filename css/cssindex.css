@@ -53,8 +53,10 @@ pre {
  width:510px;height:330px; 
 }
 #p03{
+	box-sizing:border-box;
 	border:2px solid DodgerBlue;
 }
+
 
 #dat_boi {
 	width:128px;height:128px;
@@ -78,7 +80,8 @@ img {
 }
 
 #pre01 {
-	color :#00838f;
+	box-sizing:border-box;
+color :#00838f;
 	border:3px solid gray;
 	font-family:Arial;
 }
