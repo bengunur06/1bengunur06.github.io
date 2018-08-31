@@ -131,14 +131,14 @@ table {
     padding:5px;
     overflow:auto;
     }
-
+/*q
 li a {
 	display:block ;
 	text-align:center;
 	padding:5px;
 	text-decoration:underline;
 	font-family:verdana;
-}
+}*/
 
 li {
 	float:left;
