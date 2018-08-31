@@ -141,4 +141,8 @@ li a {
 	font-family:Verdana;
 }
 
+li {
+	float:left;
+}
+
 
