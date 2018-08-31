@@ -114,6 +114,8 @@ border :3px solid #00838f;
 table , th,td {
 	border:5px solid lightgrey;
 	border-collapse:collapse;
+
+	color:white;
 }
 table {
 	width:%75;
