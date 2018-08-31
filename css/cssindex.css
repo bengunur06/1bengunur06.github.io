@@ -20,9 +20,6 @@ h2 {
 	color:#EA3556;
 }
 
-h3 {
-	color :powderblue;
-}
 
 h6 {
 	color :powderblue;
@@ -76,6 +73,10 @@ img {
 	width:200px;height:200px;
 }
 
+#pre01 {
+	color :#00838f;
+	font-family:Arial;
+}
 
 
 
