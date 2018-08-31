@@ -110,8 +110,13 @@ img {
 
 #box_div {
 	padding :3px;
+	width:500;
+	color:lightgrey;
+font-family:Arial;
 	border :3px solid #00838f;
 }
+
+
 
 
 
