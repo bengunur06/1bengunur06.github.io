@@ -1,3 +1,4 @@
-function makesuprize(){
-getElementById('demo').innerHTML ="Suprizeeee";
+function makesuprize()
+{
+document.getElementById("demo").innerHTML ="Suprizeeee";
 }
