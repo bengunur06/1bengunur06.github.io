@@ -3,70 +3,56 @@
 <head>
 	<title>BNG</title>
 	<link rel="stylesheet" href="css/cssindex.css">
-	<h1>-This is Personal Page of Bengünur Baş</h1>
+	<meta charset="UTF-8"> 
 
-		 <ul id="main_menu">
-			 <li><a href="menu/about_me.html" title="summary of me lol" >About Me</a></li>
-			 <li><a href="menu/poems.html" title="poems that i liek" >Poems and Quotes that i like</a></li>
-			 <li><a href="menu/books.html" title="books that  i liek ">Books that i read (not all of them )</a></li>
-
-			 <li><a href="/menu/collagebooks.html">Educational Books </a></li>
-                         <li><a href="/menu/graphics.html">Graphics(WebGL)</a>
-		 <ul>
-
+		
 </head>
 
-<body>
+
+<body id="mainbody" >
+
+
 <!--verymuch comment-->
+<div id="webgl_canvas"></div>
+<div class="overlay">
+<h1 class="overlay">Personal Page of Bengünur Baş</h1>
+</div>
 
-	<h2><i> Hello! </i></h2>
+<div class="ocont">
+		<ul id="main_menu"  >
+				<li><a href="menu/about_me.html" title="summary of me lol" >About Me</a></li>
+				<li><a href="menu/poems.html" title="poems that i liek" >Poems and Quotes that i like</a></li>
+				<li><a href="menu/books.html" title="books that  i liek ">Books that i read (not all of them )</a></li>
+   
+				<li><a href="/menu/collagebooks.html">Educational Books </a></li>
+				<li><a href="/menu/old.html">Old texts </a></li>
+							<li><a href="/menu/graphics.html">Graphics(WebGL)</a></li>
 
-	<p>I'm computer engineering student at Ankara University. I like to learn new things </p>
+		
+		</ul>
+	
 
-	<p><mark>I like frogs </mark></p>
+<div >
 
-	<p> If you want to search internet theres a link for ya </p> <a href="https://www.google.com/"> GOOGLE </a>
+	<p class="bord">I'm computer engineering student at Ankara University. I like to learn new things </p>
 
-	<p> This is a image that i liek</p>
+	<p class="bord">I like frogs </p>
 
 	
-	<img id="dat_frog" src="images/pp.jpg" alt="dat a frog ">
-
-	<p>OH it'S dat boi again,Waddup lel lllll</p>
-	<img id="dat_boi" src="images/datboi.gif" alt="dat boi" >
+</div>
 	
-	<br>
-		<button>click me nothing will happen  </button>
-		<button id="demo" onclick="makesuprize()">click me and something will happen</button>
-
-
-		<ol>
-   <li>CATS</li>
-   <li>FrOgS</li>
-   <li>Bunnys</li>
-</ol>
- <p id="p01" >My full name is <ins>Bengünur</ins></p>
-
-<a id="a01" href="https://www.youtube.com/watch?v=4Tr0otuiQuU"><b>A song that i like </b></a>
-
-<p id="p02" ><i>All rights reserved by<abbr title="BeNGünur">BNG </abbr> corp<i><p>
-
-
-
-
-<br>
-<br>
-<img id="starry_night" src="images/the_starry_night-wallpaper-1366x768.jpg" alt="Starry Night">
-<p id="p03" ><cite>Starry Night</cite>by Van Gogh painted in 1889 </p>
-<br>
-<br>
-<br>
 
 <address>
 Written by  Bengünur Baş, <br>
-Visit my github account :bengunur06 
+Visit my github account :<a href="https://github.com/bengunur06">  bengunur06 </a>
 </address>
+
+<p>This is done with webgl</p>
+
+</div>
 <script type="text/javascript" src="js/button.js" ></script>
+<script type="text/javascript" src="js/webgl.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
 </body>
 
 </html> 
