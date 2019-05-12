@@ -108,9 +108,19 @@ h1{
 	
   overflow:hidden;
   margin:0;
-  background-color:#242424;
+  background-color:#0a0909;
 }
 
+
+.info {
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 5px;
+	z-index: 100;
+}
 
 
 p.bord {
