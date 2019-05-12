@@ -49,6 +49,14 @@ img {
 	margin-top: 20px;
 }
 
+.Tcard {
+	background-color: rgb(6, 7, 8);
+	margin-top: 10px;
+	opacity: 0.5;
+	overflow: auto;
+	
+}
+
 .pinkCard {
 	background-color: #1b0407;
 	margin-top: 20px;
