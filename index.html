@@ -1,13 +1,13 @@
 <!DOCTYPE html >
-<html>
+<html id="cat">
 	<head>
 		<title>BNG</title>
 		<link rel="stylesheet" href="css/cssindex.css">
 			<meta charset="UTF-8">
 			</head>
-<body id="cat" >
-	<div id="webgl_canvas"></div>
-	<div class="overlay">
+<body class="overlay" >
+	
+	<div >
 		<h1 class="overlay">Journal of a Star Rover</h1>
 	</div>
 	<div class="ocont">
@@ -44,9 +44,15 @@ Visit my github account :
 				<p class="bord">I'm computer engineering student at Ankara University. I like to learn new things </p>
 				<p class="bord">I like frogs </p>
 			</div>
-		</div>
-		<script src="js/three.r92.min.js"></script>
-		<script src="js/vanta.rings.min.js"></script>
-		<script> VANTA.RINGS({ el: "#cat", backgroundColor: 0xf1114, color: 0x526e33 }) </script>
+		
+		
 	</body>
+	<script src="/js/three.r92.min.js"></script> 
+	<script src="/js/vanta.birds.min.js"></script> 
+	<script> 
+	VANTA.BIRDS({ 
+		el: "#cat", 
+		backgroundColor: 0x6111e, color1: 0x18f0d6, color2: 0xb3f6e, colorMode: "lerpGradient", wingSpan: 40.00, separation: 66.00, alignment: 1.00, cohesion: 100.00, backgroundAlpha: 0.86 }) 
+	</script>
+	
 			</html> 
