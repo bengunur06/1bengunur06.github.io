@@ -1,16 +1,16 @@
-<!DOCTYPE html >
-<html id="cat">
+<!DOCTYPE html>
+<html id="cat" >
 	<head>
 		<title>BNG</title>
 		<link rel="stylesheet" href="css/cssindex.css">
 			<meta charset="UTF-8">
 			</head>
-<body class="overlay" >
-	
+<body class="absolu" >
 	<div >
-		<h1 class="overlay">Journal of a Star Rover</h1>
-	</div>
-	<div class="ocont">
+
+		<h1 >Journal of a Star Rover</h1>
+	
+	<div class="leftcolumn">
 		<ul id="main_menu"  >
 			<li>
 				<a href="menu/about_me.html" title="summary of me lol" >About Me</a>
@@ -44,15 +44,21 @@ Visit my github account :
 				<p class="bord">I'm computer engineering student at Ankara University. I like to learn new things </p>
 				<p class="bord">I like frogs </p>
 			</div>
-		
-		
+		</div>
+		</div>
 	</body>
-	<script src="/js/three.r92.min.js"></script> 
-	<script src="/js/vanta.birds.min.js"></script> 
-	<script> 
-	VANTA.BIRDS({ 
-		el: "#cat", 
-		backgroundColor: 0x6111e, color1: 0x18f0d6, color2: 0xb3f6e, colorMode: "lerpGradient", wingSpan: 40.00, separation: 66.00, alignment: 1.00, cohesion: 100.00, backgroundAlpha: 0.86 }) 
-	</script>
-	
+	<script src="/js/three.r92.min.js"></script>
+<script src="/js/vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "#cat",
+  highlightColor: 0x98c504,
+  midtoneColor: 0x2a0c61,
+  lowlightColor: 0x2d07de,
+  baseColor: 0x53827f,
+  blurFactor: 0.56,
+  speed: 3.90,
+  zoom: 3.00
+})
+</script>
 			</html> 
