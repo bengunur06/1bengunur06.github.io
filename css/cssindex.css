@@ -65,6 +65,8 @@ img {
 .pinkCard {
 	background-color: #1b0407;
 	margin-top: 20px;
+	padding-bottom: 3%;
+	padding-top: 1%
 }
 table , th,td {
 	border:5px solid rgb(43, 132, 155);
@@ -84,6 +86,12 @@ a{
 	color: #ad6692;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:20px;
+}
+
+.Ja {
+	color: #14535e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:17px;
 }
 
 h1{
@@ -149,6 +157,17 @@ object {
 p{
 	font-size: 20px;
 	color: rgb(218, 193, 163);
+}
+
+.Jleftcolumn{
+
+	font-size: 15px;
+	color: rgb(211, 204, 195);
+	float:left;
+
+	padding-left: 8%;
+	padding: 1%;
+
 }
 
 * {
