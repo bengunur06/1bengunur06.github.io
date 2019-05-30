@@ -140,6 +140,12 @@ p.bord {
 	left: 5px;
 }
 
+object {
+	font-size: 20px;
+	color: rgb(218, 193, 163);
+
+}
+
 p{
 	font-size: 20px;
 	color: rgb(218, 193, 163);
