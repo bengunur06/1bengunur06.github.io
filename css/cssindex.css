@@ -12,6 +12,12 @@ img {
 	width: auto;
 }
 
+.EUPimg{
+	height: 175px;
+	width: auto;
+
+}
+
 .alignleft {
 	float: left;
 	padding: 1%;
