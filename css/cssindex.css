@@ -52,7 +52,7 @@ img {
 .middle {
  	text-align: center;
 	width: 100%;
-	padding-left: 10px;
+	padding-left: 0px;
 
 }
 .card {
@@ -74,24 +74,33 @@ img {
 	padding-bottom: 3%;
 	padding-top: 1%
 }
+
+.blueCard {
+	background-color: #0b071b;
+	margin-top: 20px;
+	padding-bottom: 3%;
+	padding-top: 1%
+}
+
+
 table , th,td {
-	border:5px solid rgb(43, 132, 155);
+	border:1px solid rgb(0, 0, 0);
 	border-collapse:collapse;
-	padding:3px;
+	padding:1px;
 	text-align:center;
 	color:rgb(139, 174, 175);
 }
 
 table {
-	width:"%75";
+	height: 25%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 a{
-	color: #ad6692;
+	color: #131c8f;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:20px;
+	font-size:17px;
 }
 
 .Ja {
@@ -189,6 +198,9 @@ h2{
 pre{
 	font-size:15px;
 	color: lavenderblush;
+	margin: 0%;
+	margin-left: 0%;
+	border: 0ch;
 }
 
 #box_div {
